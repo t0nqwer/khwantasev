@@ -7,6 +7,9 @@
     "start": "node dist/index.js",
     "dev": "nodemon src/index.ts"
   },
+  "bin": {
+    "khwantasev": "bin/install.mjs"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
